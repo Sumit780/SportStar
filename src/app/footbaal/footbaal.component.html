@@ -1,0 +1,12 @@
+<div class="container mt-5 text-center">
+    <div class="row">
+        <div class="col bg-primary text-dark">Name</div>
+        <div class="col bg-primary text-dark">Country </div>
+        <div class="col bg-primary text-dark"> Sports</div>
+    </div>
+    <div class="row" *ngFor="let c of footballData">
+        <div class="col border">{{c.name}}</div>
+        <div class="col border">{{c.country}} </div>
+        <div class="col border"> {{c.sport}}</div>
+    </div>
+</div>
